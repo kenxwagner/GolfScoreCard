@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GolfScoreCard</string>
+    <string name="holeLabelName">Hole #</string>
+    <string name="strokeCountLabel">Strokes</string>
+</resources>
