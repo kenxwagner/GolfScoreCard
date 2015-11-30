@@ -59,13 +59,23 @@ public class ListAdapter extends BaseAdapter {
             @Override
             public void onClick(View v) {
                 int updatedStrokeCount = mHoles[position].getStrokeCount() - 1;
-                if (updatedStrokeCount < 0)updatedStrokeCount = 0;
+                if (updatedStrokeCount < 0) updatedStrokeCount = 0;
                 mHoles[position].setStrokeCount(updatedStrokeCount);
                 holder.strokeCount.setText(updatedStrokeCount + "");
             }
         });
 
-        return null;
+        holder.addSrokeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int updatedStrokeCount = mHoles[position].getStrokeCount() + 1;
+                mHoles[position].setStrokeCount(updatedStrokeCount);
+                holder.strokeCount.setText(updatedStrokeCount + "");
+
+            }
+        });
+
+        return convertView;
     }
     private static class ViewHolder {
         TextView holeLabel;
