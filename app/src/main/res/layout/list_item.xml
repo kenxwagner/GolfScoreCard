@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:text="@string/holeLabelName"
         android:id="@+id/holeLabel"
-
         android:textSize="24sp"
         android:textIsSelectable="false"/>
 
@@ -21,12 +20,9 @@
         android:layout_width="0dp"
         android:layout_weight="2"
         android:layout_height="wrap_content"
-
-
         android:id="@+id/strokeCount"
         android:text="@string/strokeCountLabel"
         android:textSize="24sp"/>
-
 
 
     <Button
