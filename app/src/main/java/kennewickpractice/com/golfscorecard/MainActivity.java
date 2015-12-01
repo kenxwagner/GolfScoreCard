@@ -8,7 +8,6 @@ import android.os.Bundle;
 
 public class MainActivity extends ListActivity {
     private static final String PREFS_FILE = "kennewickpractice.com.golfscorecard.preferences";
-    private static final int KEY_STROKECOUNT = ;
     private SharedPreferences mSharedPreferences;
     private SharedPreferences.Editor mEditor;
     private Hole[] mHoles = new Hole[18];
