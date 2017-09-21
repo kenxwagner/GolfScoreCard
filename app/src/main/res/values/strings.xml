@@ -2,4 +2,5 @@
     <string name="app_name">GolfScoreCard</string>
     <string name="holeLabelName">Hole #</string>
     <string name="strokeCountLabel">Strokes</string>
+    <string name="action_clear_strokes">Clear Strokes</string>
 </resources>
