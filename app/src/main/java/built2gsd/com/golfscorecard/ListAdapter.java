@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 /**
- * Created by ken.wagner on 11/25/2015.
+ * Created by ken.wagner on 11/25/2015. Updated 9/22/2017.
  */
 public class ListAdapter extends BaseAdapter {
     private final Context mContext;
