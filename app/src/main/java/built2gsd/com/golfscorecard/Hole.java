@@ -1,4 +1,4 @@
-package kennewickpractice.com.golfscorecard;
+package built2gsd.com.golfscorecard;
 
 /**
  * Created by ken.wagner on 11/25/2015.

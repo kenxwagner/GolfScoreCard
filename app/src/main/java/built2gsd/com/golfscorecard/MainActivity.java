@@ -1,15 +1,14 @@
-package kennewickpractice.com.golfscorecard;
+package built2gsd.com.golfscorecard;
 
 import android.app.ListActivity;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends ListActivity {
-    private static final String PREFS_FILE = "kennewickpractice.com.golfscorecard.preferences";
+    private static final String PREFS_FILE = "built2gsd.com.golfscorecard.preferences";
     private static final String KEY_STROKECOUNT ="key_strokecount" ;
     private SharedPreferences mSharedPreferences;
     private SharedPreferences.Editor mEditor;

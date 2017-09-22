@@ -1,4 +1,4 @@
-package kennewickpractice.com.golfscorecard;
+package built2gsd.com.golfscorecard;
 
 import android.content.Context;
 import android.view.LayoutInflater;
